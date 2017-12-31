@@ -15,10 +15,4 @@
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
-## UI:
-- x Bootstrap -> formatting
-- x Icons from glyphicons
-- x Update the styles for forms
-
-## Refactor TODOS:
-- x Refactor posts/_form for admin status
+## TODOS: 
