@@ -14,5 +14,7 @@
 - x Block non admin and guest user
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
+- Create an audit log for each text message
+- Need to update end_date when confirmed
 
 ## TODOS: 
