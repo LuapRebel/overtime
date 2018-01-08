@@ -2,4 +2,4 @@
 
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week 
 
-For more tutorial please visit [devCamp](https://devcamp.com)
+For more tutorials please visit [devCamp](https://devcamp.com).
