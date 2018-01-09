@@ -3,7 +3,9 @@
                     password_confirmation: "asdfasdf", 
                     first_name: "Jon", 
                     last_name: "Snow",
-                    phone: "5555555555")
+                    phone: "5555555555",
+                    ssn: 1234,
+                    company: "ABC Co.")
 puts "1 employee created"
 
 AdminUser.create(email: "admin@test.com", 
@@ -11,7 +13,9 @@ AdminUser.create(email: "admin@test.com",
                   password_confirmation: "asdfasdf", 
                   first_name: "Admin", 
                   last_name: "User",
-                  phone: "5555555555")
+                  phone: "5555555555",
+                  ssn: 1234,
+                  company: "ABC Co.")
 puts "1 admin user created"
 
 AuditLog.create!(user_id: @employee.id, status: 0, start_date: (Date.today - 6.days))
